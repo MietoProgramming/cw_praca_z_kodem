@@ -18,7 +18,6 @@ jobs:
       - run: python --version
       - run: pylint **/*.py
 
-jobs:
   pylint:
     runs-on: ubuntu-latest
     steps:
